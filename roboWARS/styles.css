@@ -28,15 +28,53 @@ h2 {
 }
 
 .middle-container {
-    background: linear-gradient(45deg, rgb(0, 60, 255),rgb(38, 137, 209));
+    background: linear-gradient(45deg);
     padding: auto;
 }
 
-.bottom-container {
-    background-color: #FFFFFF;
-    padding: 50px 0 20px 0;
-    text-align: center;
+.deving{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
+
+.ntech{
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+
+.bottom-container {
+  background-color: #000000;
+  padding: 20px 0 10px;
+  text-align: center;
+}
+
+.algn{
+  text-align: center;
+}
+
+.sponsor{
+  text-align: center;
+}
+
+.donotcross {
+  overflow: hidden;
+  align-items: center;
+  background: hsl(50, 100%, 50%);
+  color: black;
+  height: 2em;
+  line-height: 2em;
+
+  &:before,
+  &:after {
+    background: white;
+    padding: 50px 0;
+    height: 0;
+    transform: rotate(45deg);
+  }
+}
+
 
 p {
     width: 50%;
@@ -83,7 +121,7 @@ a:hover {
     padding: 25px;
 }
 
-.btnn {
+.btn {
     width: 385px;
     height: 40px;
     background: #ff7200;
@@ -94,6 +132,7 @@ a:hover {
     cursor: pointer;
     color: #fff;
     transition: 0.3s ease;
+    text-align: center;
 }
 
 .btnn:hover {
